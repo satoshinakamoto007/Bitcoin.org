@@ -1,0 +1,13 @@
+- name: Profile Readme Stats bram darras
+  # You may pin to the exact commit or the version.
+  # uses: teoxoy/profile-readme-stats@82d1c3c663733644c424425e4efd0b6396c4126b
+  uses: teoxoy/profile-readme-stats@v1.2
+  with:
+    # Personal access token with `read:user` scope and optional `repo` scope
+    token: 
+    # Path to template file
+    template: # default is ./TEMPLATE.md
+    # Path to generated file
+    readme: # default is ./README.md
+    # Include forked repositories when calculating the stats
+    includeForks: # optional
